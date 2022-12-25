@@ -93,9 +93,15 @@ header a:hover {
 
 /* main */
 
-.main {
+main {
   max-width: 800px;
   margin: 150px auto 300px;
+}
+
+main > h1 {
+  margin-bottom: 50px;
+  color: #fff;
+  text-align: center;
 }
 
 .row img {
@@ -296,6 +302,7 @@ footer h3 {
     flex-direction: column;
     padding: 20px 10px;
     height: 100vh;
+    text-align: center;
   }
 
   .row p {
